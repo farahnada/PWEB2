@@ -14,7 +14,7 @@ class mahasiswa
         return "Nama Saya Farah </br>";
     }
 
-    //mmbuat protected method
+    //membuat protected method
     function tampilkan_nim()
     {
         return "NIM saya " . $this->nim;

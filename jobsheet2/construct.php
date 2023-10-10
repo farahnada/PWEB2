@@ -1,6 +1,6 @@
 <?php
 
-//membuat class
+//membuat class mahasiswa
 class mahasiswa
 {
     //menuliskan properti
@@ -14,7 +14,7 @@ class mahasiswa
         echo "Saya Mahasiswa Teknik Informatika";
         echo "</br>";
     }
-
+    //destructor
     function __destruct()
     {
         echo "Politeknik Negeri Cilacap";

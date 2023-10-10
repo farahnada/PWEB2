@@ -1,13 +1,16 @@
 <?php
+//membuat superclass manusia
 class manusia
 {
+    //properti public dan protected
     public $nama_saya;
     protected $jenis_kelamin;
-
+    //method untuk panggil nama
     function panggil_nama($saya)
     {
         $this->nama_saya = $saya;
     }
+    //method untuk tampil jenis kelamin
     function tampilkan_jenis_kelamin()
     {
         //nilai kembalian
@@ -17,9 +20,10 @@ class manusia
 //class turunan atau subclass manusia
 class mahasiswa extends manusia
 {
+    //properti public dan private
     public $nama_mahasiswa;
     private $nim = "220302034";
-
+    //method
     function panggil_mahasiswa($mahasiswa)
     {
         $this->nama_mahasiswa = $mahasiswa;

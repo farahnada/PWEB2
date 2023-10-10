@@ -1,5 +1,5 @@
 <?php
-
+//membuat superclass manusia
 class manusia
 {
     public $nama_saya;

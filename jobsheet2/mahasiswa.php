@@ -1,6 +1,6 @@
 <?php
 
-//membuat class
+//membuat class mahasiswa
 class mahasiswa
 {
     //menuliskan properti
