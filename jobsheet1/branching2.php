@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <!-- menginputkan nilai -->
     <form action="" method="post">Masukan nilai X :
         <input type="number" name="x">
         <input type="submit" name="submit" value="submit">

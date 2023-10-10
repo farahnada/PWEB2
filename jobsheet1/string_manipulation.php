@@ -11,9 +11,15 @@
     <?php
     $date = 02 - 05 - 2023;
     $x = "Selamat belajar PHP!";
-    // echo "$x";
-    // echo strtoupper($x);
-    // echo strtolower($x);
+    //menampilkan data
+    echo "$x";
+    echo "</br>";
+    //mengubah output menjadi huruf kapital semua
+    echo strtoupper($x);
+    echo "</br>";
+    //mengubah output menjadi huruf kecil semua
+    echo strtolower($x);
+    echo "</br>";
     echo substr($x, 0, 7)
 
     ?>

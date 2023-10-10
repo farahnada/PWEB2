@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    $x = 0;
+    $x = 2; //inputan nilai statis
     echo "Nilai X = $x </br></br>";
     if ($x > 0) {
         echo "$x adalah bilangan positif";

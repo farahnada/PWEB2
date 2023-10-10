@@ -9,6 +9,7 @@
 
 <body>
     <?php
+    // fungsi untuk menghitung luas persegi panjang dan lingkaran
     function persegi_panjang($p, $l)
     {
         return $p * $l;
@@ -17,8 +18,8 @@
     {
         return 3.14 * $r * $r;
     }
-
-    echo "Luas persegi panjang = " . persegi_panjang(5, 2) . "</br>";
+    //menampilkan luas
+    echo "Luas persegi panjang = " . persegi_panjang(2, 5) . "</br>";
     echo "Luas lingkaran = " . lingkaran(7) . "</br>";
     ?>
 </body>
