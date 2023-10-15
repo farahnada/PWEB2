@@ -14,6 +14,7 @@
         <input type="submit" name="submit" value="submit">
     </form>
     <?php
+    // jika tombol submit sudah di klik
     if (isset($_POST['submit'])) {
         //mengambil nilai x dari inputan
         $x = $_POST["x"];
